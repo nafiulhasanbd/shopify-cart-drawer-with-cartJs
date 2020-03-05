@@ -1,2 +1,3 @@
-# shopify-ajax-cart-with-cartJs
-This is code I have implemented the CartJS with Shopify theme
+# Shopify Cart Drawer with CartJS
+You can easily copy the code and implemnted with your theme. 
+Still if you need help then let me know.
