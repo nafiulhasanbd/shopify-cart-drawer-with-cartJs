@@ -1,0 +1,22 @@
+  <script type="text/javascript">
+    jQuery(function() {
+      CartJS.init({{ cart | json }});
+    });
+    
+      $("#cd-close").click(function(){
+    $( ".cart-drawer" ).addClass( "hide" );
+     $( ".cart-drawer" ).removeClass( "show" );
+  });
+    
+    $("#CartButton").click(function(){
+      $( ".cart-drawer" ).toggleClass( "show" );
+      $( ".cart-drawer" ).removeClass( "hide" );
+
+    });
+    $(".product__submit__add").click(function(){
+      $( ".cart-drawer" ).addClass( "show" );
+      $( ".cart-drawer" ).removeClass( "hide" );
+    });
+
+
+  </script>
